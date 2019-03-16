@@ -1,4 +1,5 @@
 import subprocess
 
-subprocess.call(["ls","-l ","/tmp/"])
+output = subprocess.call(["ls","-l ","/tmp/"])
 
+print(output)
